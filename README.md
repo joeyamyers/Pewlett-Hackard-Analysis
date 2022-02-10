@@ -1,7 +1,7 @@
 # Pewlett-Hackard-Analysis
 ## Overview
 ### Purpose
-I was tasked with helping Pewlett Hackard, a large company with several thousand employees, prepare for an upcoming "silver tsunami" as many current employees reach retirement age. The company is offering a retirement package for those that meet certain criteria, and they are starting to think about which positions will need to be filled in the near future because of these retirements. I was tasked with performing employee research into who is retiring and how many employees are retiring. Additionally, Pewlett Hackard asked that I determine the number of retiring employees per job title and identify employees who are eligible to participate in a mentorship program.
+I was tasked with helping Pewlett Hackard, a large company with over 300,000 employees, prepare for an upcoming "silver tsunami" as many current employees reach retirement age. The company is offering a retirement package for those that meet certain criteria, and they are starting to think about which positions will need to be filled in the near future because of these retirements. I was tasked with performing employee research into who is retiring and how many employees are retiring. Additionally, Pewlett Hackard asked that I determine the number of retiring employees per job title and identify employees who are eligible to participate in a mentorship program.
 
 
 ## Results
