@@ -25,20 +25,16 @@ WHERE to_date = '9999-01-01'
 ORDER BY emp_no, to_date DESC;
 
 -- Number of employees by their most recent job title who are about to retire.
-SELECT COUNT(title),
-	title
-INTO retiring_titles
+SELECT title as "Job Title",
+	COUNT(title) as "Retiring Employees"
+-- INTO retiring_titles
 FROM unique_titles
-GROUP BY title
-ORDER BY COUNT(title) DESC;
+GROUP BY "Job Title"
+ORDER BY "Retiring Employees" DESC;
 
 
 -- CHALLENGE QUERY: DELIVERABLE 2 
 -- The Employees Eligible for the Mentorship Program
-
--- CHALLENGE QUERY: DELIVERABLE 2 
--- The Employees Eligible for the Mentorship Program
-
 
 SELECT DISTINCT ON (emp_no) e.emp_no,
 	e.first_name,
